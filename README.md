@@ -10,7 +10,7 @@ Then, you must edit `twitterConfig.ini` to contain valid API keys and their secr
 
 ## Start up
 
-```
+```python
 from AverageSentence import Bot
 
 
