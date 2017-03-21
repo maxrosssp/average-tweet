@@ -29,7 +29,7 @@ class RateLimiter(object):
 
 	def callsLeft(self):
 		callsLeft = self.callLimit - self.calls
-		if callsLeft < 1:
+		if callsLeft < 0:
 			raise LimitReachedError(self.event)
 
 		return callsLeft
