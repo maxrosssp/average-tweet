@@ -87,3 +87,8 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+*twitterConfig*.ini
+*lastMentionId.txt
+
+.DS_Store
