@@ -11,12 +11,12 @@ Then, you must edit `twitterConfig.ini` to contain valid API keys and their secr
 ## Start up
 
 ```python
-from AverageSentence import Bot
+import AverageSentence
 
 
 tweetsPerSearch = 2000 // (Default = 1000) Number of tweets added to the markov chain for each mention
 maxOverlapRatio = .65   // (Default = .7) Maximum percentence of overlap the created reply can have with an existing tweet
 
-t = Bot(tweetsPerSearch, maxOverlapRatio)
+t = AverageSentence.Bot(tweetsPerSearch, maxOverlapRatio)
 t.start()
 ```
